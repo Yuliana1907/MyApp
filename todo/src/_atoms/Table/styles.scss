@@ -1,0 +1,79 @@
+@import "src/styles/styles";
+
+.default-table{
+  &.ant-table-wrapper .ant-table-pagination-right{
+    justify-content: flex-start;
+  }
+  .ant-pagination-total-text{
+    margin: 0 25% 0 20px;
+    color: $shadow_dark_gray;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .ant-pagination .ant-pagination-item-active a{
+    color: white;
+    background: $pink;
+    border-radius: 34px;
+  }
+  .ant-pagination .ant-pagination-item-active{
+    border: none;
+    background: $light_blue;
+  }
+  .ant-pagination .ant-pagination-item:not(.ant-pagination-item-active):hover{
+    border-radius: 34px;
+  }
+   .ant-table-thead >tr>th{
+    background: $white;
+  }
+  .ant-table{
+    border: 1px solid $shadow_light_gray;
+    border-radius: 2px;
+  }
+  .ant-table-column-sorter-up.active{
+    color: $pink;
+  }
+  .ant-table-column-sorter-down.active{
+    color: $pink;
+  }
+  .ant-pagination-item-link{
+    svg{
+      path{
+        fill:  $pink;
+      }
+    }
+  }
+  .ant-checkbox-checked .ant-checkbox-inner{
+    background: $pink;
+    border-radius: 2px;
+    border: none;
+  }
+  .ant-table-tbody >tr.ant-table-row-selected >td{
+    background: rgba(224, 0, 135, 0.1);
+  }
+  .ant-table-tbody >tr.ant-table-row-selected:hover>td{
+    background: rgba(224, 0, 135, 0.1);
+  }
+  .ant-table-column-title{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: $shadow_dark_gray;
+  }
+  .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner{
+    background: $pink;
+    border: none;
+  }
+  .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled):after{
+    border: none;
+  }
+  .ant-checkbox-wrapper:hover .ant-checkbox:after{
+    visibility: hidden;
+  }
+  .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner, :where(.css-dev-only-do-not-override-1ij74fp).ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+    border-color: $pink;
+  }
+  .ant-checkbox-indeterminate .ant-checkbox-inner:after{
+   background: $pink;
+  }
+}
+
