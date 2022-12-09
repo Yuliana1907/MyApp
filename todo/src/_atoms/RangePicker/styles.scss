@@ -1,0 +1,13 @@
+@import 'src/styles/styles';
+
+.default-range-picker{
+  .ant-picker{
+    background: $white;
+    border: 1px solid $shadow_gray;
+    border-radius: 4px;
+  }
+  .ant-picker-focused{
+    border: 1px solid $bright_blue;
+    box-shadow: none;
+  }
+}

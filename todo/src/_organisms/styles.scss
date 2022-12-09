@@ -1,0 +1,14 @@
+@import "src/styles/styles";
+
+.table-constants{
+  &__assigned-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: $light_gray;
+    border-radius: 20px;
+    color: $shadow_gray;
+  }
+}

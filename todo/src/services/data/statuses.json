@@ -1,0 +1,7 @@
+[
+  { "name": "create"},
+  { "name": "active"},
+  { "name": "canceled" },
+  { "name": "wait"},
+  { "name": "archived"}
+]
