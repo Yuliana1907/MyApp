@@ -1,0 +1,40 @@
+@import 'src/styles/styles';
+
+.default-button {
+  cursor: pointer;
+  &.primary {
+    background:$pink;
+    border: none;
+    border-radius: 4px;
+    color: $white;
+    &:hover {
+      background: $dark_pink;
+      color: $white;
+    }
+
+    &:active {
+      background: $dark_pink;
+    }
+  }
+
+  &.secondary {
+    background: $white;
+    border: 1px solid $pink;
+    color: $pink;
+    &:hover {
+      border: 1px solid $dark_pink;
+      color: $dark_pink  ;
+    }
+
+    &:active {
+      border: 1px solid $pink;
+    }
+  }
+
+  &.login {
+    background: $white;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    color: $blue;
+  }
+}
