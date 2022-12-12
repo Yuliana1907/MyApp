@@ -1,13 +1,5 @@
 .filters {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(200px, 320px) minmax(200px, 256px) minmax(200px, 274px);
   gap: 16px;
-  &__statuses-select {
-    width: 330px;
-  }
-  &__range-picker {
-    width: 256px;
-  }
-  &__assigners-select {
-    width: 274px;
-  }
 }

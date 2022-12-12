@@ -1,7 +1,7 @@
 import { Input, Button, Select } from '../index'
 import { Divider, Form, Modal } from 'antd'
 import cn from 'classnames'
-import './form.login.scss'
+import './form.addEditData.scss'
 import { useEffect } from 'react'
 import { requestAssigners } from 'src/redux/assigners/actions'
 import { requestStatuses } from 'src/redux/statuses/actions'
@@ -23,10 +23,21 @@ export const AddEdit = ({ className, open, handleCancel, form, onFinish }: TForm
     <Modal
       footer={[
         <Divider />,
-        <Button.Default variant="secondary" key="back" onClick={handleCancel}>
+        <Button.Default
+          className="edit-form__cancel"
+          variant="secondary"
+          key="back"
+          onClick={handleCancel}
+        >
           Cancel
         </Button.Default>,
-        <Button.Default variant="primary" key="submit" type="primary" onClick={form.submit}>
+        <Button.Default
+          className="edit-form__save"
+          variant="primary"
+          key="submit"
+          type="primary"
+          onClick={form.submit}
+        >
           Save
         </Button.Default>
       ]}

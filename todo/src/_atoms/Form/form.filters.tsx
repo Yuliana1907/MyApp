@@ -32,12 +32,10 @@ export const Filters = ({ setDate, form }: TForm) => {
   return (
     <Form form={form} className="filters">
       <RangePicker
-        className="filters__range-picker"
         propsItem={{ name: 'date' }}
         propsDataPicker={{ onChange: onRangePickerChange }}
       />
       <Select
-        className="filters__statuses-select"
         propsItem={{ name: 'statuses_type' }}
         propsSelect={{
           placeholder: 'All statuses',
@@ -48,7 +46,6 @@ export const Filters = ({ setDate, form }: TForm) => {
         }}
       />
       <Select
-        className="filters__assigners-select"
         propsItem={{ name: 'assigned_type' }}
         propsSelect={{
           placeholder: 'All assigners',

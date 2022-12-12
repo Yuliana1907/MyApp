@@ -6,27 +6,34 @@
   background: $light_blue;
   &__header {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
   }
   &__edit {
     width: 105px;
+    padding: 6px;
   }
   &__filter-container {
     display: flex;
+    gap: 21px;
     justify-content: space-between;
   }
   &__buttons {
     display: flex;
+    align-items: flex-start;
     gap: 21px;
   }
   &__create {
+    padding: 6px;
     width: 125px;
   }
   &__delete {
     width: 105px;
+    padding: 6px;
   }
   &__reset-filters {
     width: 105px;
+    padding: 6px;
     box-shadow: $box-shadow_1;
   }
   &__dropdown {

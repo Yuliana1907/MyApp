@@ -1,14 +1,14 @@
 @import 'src/styles/styles';
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
-  padding: 12px 45px 14px 20px;
+  padding: 12px 45px 12px 24px;
   border: 1px solid $shadow_light_gray;
-  &__info{
+  &__info {
     display: flex;
   }
-  &__logo{
+  &__logo {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -16,7 +16,7 @@
     line-height: 20px;
     color: $dark_gray;
   }
-  &__name{
+  &__name {
     color: $dark_gray;
     font-weight: 500;
     font-size: 12px;
@@ -24,41 +24,41 @@
     display: flex;
     align-items: center;
   }
-  &__logout{
+  &__logout {
     display: flex;
     align-items: center;
-    gap:10px;
-    &:hover{
+    gap: 10px;
+    &:hover {
       cursor: pointer;
     }
   }
-  &__personal-info{
+  &__personal-info {
     display: flex;
   }
-  &__line{
+  &__line {
     margin: auto 24px;
     height: 20px;
     border: 1px solid $shadow_light_gray;
   }
-  &__user-logo{
+  &__user-logo {
     position: relative;
     background: $light_gray;
     width: 36px;
     height: 36px;
     border-radius: 100%;
     margin-right: 12px;
-    svg{
+    svg {
       position: absolute;
       margin: 25%;
     }
   }
-  &__logout-text{
+  &__logout-text {
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     color: $dark_gray;
   }
-  &__link{
+  &__link {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -70,10 +70,10 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    &.active{
-      &:after{
+    &.active {
+      &:after {
         content: '';
-        top: 50px;
+        top: 48px;
         position: absolute;
         width: 128px;
         border-bottom: 2px solid $pink;

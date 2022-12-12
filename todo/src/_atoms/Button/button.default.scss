@@ -3,7 +3,7 @@
 .default-button {
   cursor: pointer;
   &.primary {
-    background:$pink;
+    background: $pink;
     border: none;
     border-radius: 4px;
     color: $white;
@@ -23,7 +23,7 @@
     color: $pink;
     &:hover {
       border: 1px solid $dark_pink;
-      color: $dark_pink  ;
+      color: $dark_pink;
     }
 
     &:active {
@@ -36,5 +36,8 @@
     border: 1px solid $blue;
     border-radius: 4px;
     color: $blue;
+  }
+  &.ant-btn {
+    height: auto;
   }
 }

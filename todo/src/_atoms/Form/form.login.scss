@@ -1,17 +1,18 @@
 @import 'src/styles/styles';
 
-.form-sign-up{
-  &__login{
-   width: 273px;
-   text-transform: uppercase;
+.form-sign-up {
+  &__login {
+    width: 273px;
+    padding: 9px;
+    text-transform: uppercase;
   }
- .ant-row{
-  display: block;
- }
- .ant-form-item .ant-form-item-label >label{
-  color: $dark_gray;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
- }
+  .ant-row {
+    display: block;
+  }
+  .ant-form-item .ant-form-item-label > label {
+    color: $dark_gray;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
