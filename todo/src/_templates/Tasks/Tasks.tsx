@@ -191,6 +191,7 @@ export const Tasks = () => {
     <div className="data">
       <div className="data__header">
         <Input.Default
+          className="data__search"
           propsInput={{
             placeholder: 'Search',
             value: searchValue,

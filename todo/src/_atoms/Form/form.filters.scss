@@ -1,0 +1,13 @@
+.filters {
+  display: flex;
+  gap: 16px;
+  &__statuses-select {
+    width: 330px;
+  }
+  &__range-picker {
+    width: 256px;
+  }
+  &__assigners-select {
+    width: 274px;
+  }
+}

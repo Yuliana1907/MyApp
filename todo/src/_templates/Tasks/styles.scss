@@ -1,57 +1,57 @@
-@import "src/styles/styles";
+@import 'src/styles/styles';
 
-.data{
+.data {
   padding: 22px 24px;
   height: 100vh;
   background: $light_blue;
-  &__header{
+  &__header {
     display: flex;
     justify-content: space-between;
   }
-  &__edit{
+  &__edit {
     width: 105px;
   }
-  &__filter-container{
+  &__filter-container {
     display: flex;
     justify-content: space-between;
   }
-  &__filter{
-    display: flex;
-    gap: 16px;
-  }
-  &__buttons{
+  &__buttons {
     display: flex;
     gap: 21px;
   }
-  &__create{
+  &__create {
     width: 125px;
   }
-  &__delete{
+  &__delete {
     width: 105px;
   }
-  &__reset-filters{
+  &__reset-filters {
     width: 105px;
     box-shadow: $box-shadow_1;
   }
-  &__dropdown{
+  &__dropdown {
     display: flex;
     flex-direction: column;
     box-shadow: $box-shadow_2;
+    width: 200px;
   }
-  &__dropdown-item{
+  &__search {
+    width: 320px;
+  }
+  &__dropdown-item {
     padding: 16px 24px;
     font-size: 14px;
     line-height: 18px;
     color: $dark_gray;
     background: $white;
     border-radius: 2px;
-    &:hover{
+    &:hover {
       cursor: pointer;
       background: $light_gray;
     }
   }
-  svg{
-    &:hover{
+  svg {
+    &:hover {
       cursor: pointer;
       background: $light_pink;
       border-radius: 2px;
