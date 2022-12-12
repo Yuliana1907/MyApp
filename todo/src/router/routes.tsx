@@ -4,8 +4,12 @@ import { routes } from './/config.routes'
 import PublicRoutes from './PublicRoutes'
 import PrivateRoutes from './PrivateRoutes'
 import { HeaderContent } from 'src/router/HeaderContent'
+import { URL } from 'src/contsnts/commonConstants'
 
 export const AppRoutes = () => {
+  if (window.location.href.split('/')[3] === URL.LOGIN) {
+    localStorage.clear()
+  }
   return (
     <Routes>
       <Route path={routes.default} element={<PublicRoutes />}>
