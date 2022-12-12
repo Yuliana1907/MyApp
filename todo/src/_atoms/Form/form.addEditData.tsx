@@ -60,7 +60,7 @@ export const AddEdit = ({ className, open, handleCancel, form, onFinish }: TForm
             placeholder: 'Select assigner',
             options: assigners.map((assigner) => ({
               value: assigner.name,
-              label: ASSIGNED[assigner.name as keyof typeof ASSIGNED]
+              label: ASSIGNED[assigner.name]
             }))
           }}
           propsItem={{
@@ -74,7 +74,7 @@ export const AddEdit = ({ className, open, handleCancel, form, onFinish }: TForm
             placeholder: 'Select status',
             options: statuses.map((status) => ({
               value: status.name,
-              label: STATUSES[status.name as keyof typeof STATUSES]
+              label: STATUSES[status.name]
             }))
           }}
           propsItem={{
